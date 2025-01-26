@@ -1,0 +1,82 @@
+site_name: Embedded System , Devices & Automation
+
+theme:
+ 
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  name: material
+  features:
+    - navigation.instant
+    - navigation.expand
+    - navigation.tabs
+    - toc.follow
+    - header.autohide
+    - announce.dismiss
+    - navigation.footer
+  
+
+  extra_css:
+    - assets/style.css
+  logo: assets/soi-logo.png
+  favicon: assets/soi-logo.png
+  direction: ltr
+  language: en
+ 
+ 
+  font:
+    text: Roboto 
+  palette:
+    primary: black
+  name: material
+ 
+ 
+nav:
+   
+  - Getting Started:
+      - Overview: GettingStarted/01overview.md
+      - Installation: GettingStarted/02installation.md
+      - First Steps: GettingStarted/03first-steps.md
+  - Embedded Systems : 
+      - Overview: EmbeddedSystems/01Es.md
+  - PCB Design : 
+      - Overview: PCB_Design/01pcb.md
+  - VLSI :
+      - Overview: VLSI/01vlsi.md
+  - Blogs:
+    - blog/index.md
+ 
+extra:
+  generator: false
+  copyright: "© 2025 My Awesome Docs. All rights reserved."
+  consent:
+    title: Cookie consent  
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link : https://github.com/mathi27
+    - icon : fontawesome/brands/linkedin
+      link : https://www.linkedin.com/in/mathiyuvarajan
+ 
+# Blogging :
+plugins:
+  - blog
+  - search
+ 
+copyright: Copyright &copy; 2025 - School of Innovation
