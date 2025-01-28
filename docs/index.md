@@ -1,7 +1,13 @@
 # Mathi dev :fontawesome-regular-face-laugh-wink:
-!!! warning
 
-    This site is under heavy development
+
+ - [x] Open Source Software Initiative
+ - [x] Free Education for All
+
+!!! warning
+ 
+    This site is currently under active development.
+    Contributors are welcome to join and support the effort!
 
 === "C"
 

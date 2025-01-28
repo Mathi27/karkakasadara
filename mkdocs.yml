@@ -30,8 +30,7 @@ theme:
     - navigation.footer
     - content.code.copy
     - content.code.annotate
-  extra_css:
-    - assets/style.css
+ 
   logo: assets/mathi-dev-logo.png
   favicon: assets/mathi-dev-logo.png
   direction: ltr
@@ -87,9 +86,10 @@ nav:
       - Overview: VLSI/01vlsi.md
   - Blogs:
       - blog/index.md
+repo_url: https://github.com/mathi27
+repo_name: Mathi27/karkakasadara
 
 extra:
-
   generator: false
   copyright: "Opensource Project | Free Education For All"
   consent:
