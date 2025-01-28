@@ -4,7 +4,7 @@
  - [x] Open Source Software Initiative
  - [x] Free Education for All
 
-!!! warning
+!!! note
  
     This site is currently under active development.
     Contributors are welcome to join and support the effort!
