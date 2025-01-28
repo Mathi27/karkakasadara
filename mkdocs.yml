@@ -1,21 +1,25 @@
-site_name: < Mathi.Dev /> 
+site_name: "< Mathi.Dev />"
+
 
 theme:
- 
-  palette: 
-
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
   name: material
+  palette:
+    primary: white
+
+
+      
+    # - media: "(prefers-color-primary: light)"
+    #   scheme: default
+    #   toggle:
+    #     icon: material/brightness-7
+    #     name: Switch to dark mode
+    # - media: "(prefers-color-primary: dark)"
+    #   scheme: slate
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: Switch to light mode
+
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.expand
@@ -26,71 +30,63 @@ theme:
     - navigation.footer
     - content.code.copy
     - content.code.annotate
-  
-
   extra_css:
     - assets/style.css
   logo: assets/mathi-dev-logo.png
   favicon: assets/mathi-dev-logo.png
   direction: ltr
   language: en
- 
- 
   font:
-    text: Roboto 
-  palette:
-    primary: white
-  name: material
- 
- 
+    text: Roboto
+
 nav:
-   
+  # - Home: index.md
   - Getting Started:
       - Overview: GettingStarted/01overview.md
       - Installation: GettingStarted/02installation.md
       - First Steps: GettingStarted/03first-steps.md
-  - C Programming : 
-      - Introduction : C_Programming/01.md
-      - History of C : C_Programming/02.md
-      - Characteristics of C : C_Programming/03.md
-      - Applications : C_Programming/04.md
-      - Structure of C : C_Programming/05.md
-      - Comments : C_Programming/06.md
-      - Variables : C_Programming/07.md
-      - Constants : C_Programming/08.md
-      - Keywords : C_Programming/09.md
-      - Operators : C_Programming/10.md
-      - Control Statements : C_Programming/11.md
-      - Functions : C_Programming/12.md
-      - Arrays : C_Programming/13.md
-      - Strings : C_Programming/14.md 
-      - Pointers : C_Programming/15.md
-      - Structures : C_Programming/16.md 
-      - Unions : C_Programming/17.md
-      - Preprocessor Directives : C_Programming/18.md
-      - File Handling : C_Programming/19.md
-      - Dynamic Memory Allocation : C_Programming/20.md
-      - Importance of stdint.h : C_Programming/21.md
-      - Embedded C Code Analysis : C_Programming/22.md
-      - Embedded-Specific Constraints and Optimizations : C_Programming/23.md
+  - C Programming:
+      - Introduction: C_Programming/01.md
+      - History of C: C_Programming/02.md
+      - Characteristics of C: C_Programming/03.md
+      - Applications: C_Programming/04.md
+      - Structure of C: C_Programming/05.md
+      - Comments: C_Programming/06.md
+      - Variables: C_Programming/07.md
+      - Constants: C_Programming/08.md
+      - Keywords: C_Programming/09.md
+      - Operators: C_Programming/10.md
+      - Control Statements: C_Programming/11.md
+      - Functions: C_Programming/12.md
+      - Arrays: C_Programming/13.md
+      - Strings: C_Programming/14.md
+      - Pointers: C_Programming/15.md
+      - Structures: C_Programming/16.md
+      - Unions: C_Programming/17.md
+      - Preprocessor Directives: C_Programming/18.md
+      - File Handling: C_Programming/19.md
+      - Dynamic Memory Allocation: C_Programming/20.md
+      - Importance of stdint.h: C_Programming/21.md
+      - Embedded C Code Analysis: C_Programming/22.md
+      - Embedded-Specific Constraints and Optimizations: C_Programming/23.md
       - Memory Management in Embedded Systems: C_Programming/24.md
       - Coding Standards: C_Programming/25.md
-  - Embedded Systems : 
+  - Embedded Systems:
       - Overview: EmbeddedSystems/01Es.md
-  - PCB Design : 
+  - PCB Design:
       - Overview: PCB_Design/01pcb.md
-  - VLSI :
+  - VLSI:
       - Overview: VLSI/01vlsi.md
   - Blogs:
-    - blog/index.md
-  
- 
+      - blog/index.md
+
 extra:
+
   generator: false
-  copyright: "© 2025 My Awesome Docs. All rights reserved."
+  copyright: "Opensource Project | Free Education For All"
   consent:
-    title: Cookie consent  
-    description: >- 
+    title: Cookie consent
+    description: >-
       We use cookies to recognize your repeated visits and preferences, as well
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
@@ -99,16 +95,14 @@ extra:
     provider: mike
   social:
     - icon: fontawesome/brands/github
-      link : https://github.com/mathi27
-    - icon : fontawesome/brands/linkedin
-      link : https://www.linkedin.com/in/mathiyuvarajan
- 
-# Blogging :
+      link: https://github.com/mathi27
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mathiyuvarajan
+
 plugins:
   - blog
   - search
- 
-copyright: Opensource Project | Free Education For All 
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -117,3 +111,62 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - tables
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - def_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.betterem
+  - pymdownx.blocks.caption
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.critic:
+      mode: view
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
