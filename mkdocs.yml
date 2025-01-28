@@ -1,4 +1,4 @@
-site_name: Embedded System , Devices & Automation
+site_name: < Mathi.Dev /> 
 
 theme:
  
@@ -24,12 +24,14 @@ theme:
     - header.autohide
     - announce.dismiss
     - navigation.footer
+    - content.code.copy
+    - content.code.annotate
   
 
   extra_css:
     - assets/style.css
-  logo: assets/soi-logo.png
-  favicon: assets/soi-logo.png
+  logo: assets/mathi-dev-logo.png
+  favicon: assets/mathi-dev-logo.png
   direction: ltr
   language: en
  
@@ -37,7 +39,7 @@ theme:
   font:
     text: Roboto 
   palette:
-    primary: black
+    primary: white
   name: material
  
  
@@ -53,7 +55,7 @@ nav:
       - Characteristics of C : C_Programming/03.md
       - Applications : C_Programming/04.md
       - Structure of C : C_Programming/05.md
-      - Data Types : C_Programming/06.md
+      - Comments : C_Programming/06.md
       - Variables : C_Programming/07.md
       - Constants : C_Programming/08.md
       - Keywords : C_Programming/09.md
@@ -106,4 +108,12 @@ plugins:
   - blog
   - search
  
-copyright: Copyright &copy; 2025 - School of Innovation
+copyright: Opensource Project | Free Education For All 
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

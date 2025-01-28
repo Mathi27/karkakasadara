@@ -1,1 +1,0 @@
-# Compilation Process in C Programming
