@@ -45,6 +45,14 @@ nav:
       - Overview: GettingStarted/01overview.md
       - Installation: GettingStarted/02installation.md
       - First Steps: GettingStarted/03first-steps.md
+   
+  - Git & Github: 
+      - Set up Git: Git/01_Configuration.md
+      - Set up UserName : Git/02_setUserName.md
+      - Caching Credentials: Git/03_cachingCredentials.md
+      - Git Workflow : Git/04_git_workflow.md
+      - Git Commands : Git/05_git_commands.md
+      - Github Setup : Git/06_setup_Github.md
   - C Programming:
       - Introduction: C_Programming/01.md
       - History of C: C_Programming/02.md
