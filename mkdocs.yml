@@ -52,6 +52,7 @@ nav:
       - Git Workflow : Git/04_git_workflow.md
       - Git Commands : Git/05_git_commands.md
       - Github Setup : Git/06_setup_Github.md
+      - Git Credentials & Email Management: Git/07_git_credentials_email.md
   - C Programming:
       - Introduction: C_Programming/01.md
       - History of C: C_Programming/02.md
