@@ -1,11 +1,12 @@
 # Mathi dev :fontawesome-regular-face-laugh-wink:
-
-
+    
+  
  - [x] Open Source Software Initiative
  - [x] Free Education for All
 
 !!! note
- 
+    - [x] Open for Contribution of Landing page ! 
+
     This site is currently under active development.
     Contributors are welcome to join and support the effort!
 
