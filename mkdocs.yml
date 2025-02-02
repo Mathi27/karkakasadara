@@ -19,7 +19,7 @@ theme:
     #     icon: material/brightness-4
     #     name: Switch to light mode
 
-  custom_dir: overrides
+ 
   features:
     - navigation.instant
     - navigation.expand
@@ -39,13 +39,13 @@ theme:
     text: Roboto
 
 nav:
-  # - Home: index.md
-  - Getting Started:
+  - Home: index.md
+  - Software Development : 
+    - Getting Started:
       - Overview: GettingStarted/01overview.md
       - Installation: GettingStarted/02installation.md
       - First Steps: GettingStarted/03first-steps.md
-   
-  - Git & Github: 
+    - Git & Github: 
       - Set up Git: Git/01_Configuration.md
       - Set up UserName : Git/02_setUserName.md
       - Caching Credentials: Git/03_cachingCredentials.md
@@ -53,7 +53,7 @@ nav:
       - Git Commands : Git/05_git_commands.md
       - Github Setup : Git/06_setup_Github.md
       - Git Credentials & Email Management: Git/07_git_credentials_email.md
-  - C Programming:
+    - C Programming:
       - Introduction: C_Programming/01.md
       - History of C: C_Programming/02.md
       - Characteristics of C: C_Programming/03.md
@@ -79,18 +79,23 @@ nav:
       - Embedded-Specific Constraints and Optimizations: C_Programming/23.md
       - Memory Management in Embedded Systems: C_Programming/24.md
       - Coding Standards: C_Programming/25.md
-  - Embedded Systems:
+  - Embedded Systems / IoT:
+    - Embedded Systems:
       - Overview: EmbeddedSystems/01Es.md
-  - PCB Design:
+    - PCB Design:
       - Overview: PCB_Design/01pcb.md
-  - VLSI:
+    - VLSI:
       - Overview: VLSI/01vlsi.md
+  - AI / ML :
+    - Introduction: AIML/01aiml.md
   - Blogs:
       - blog/index.md
+
 repo_url: https://github.com/mathi27
 repo_name: Mathi27/karkakasadara
 
 extra:
+  favicon: overrides/favicon.ico
   generator: false
   copyright: "Opensource Project | Free Education For All"
   consent:
@@ -179,3 +184,5 @@ markdown_extensions:
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+ 

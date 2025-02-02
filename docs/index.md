@@ -69,6 +69,7 @@
 ![Opensource Software](assets/opensource.png){ align=left }
 checking mermaid
 
+
 ``` mermaid
 sequenceDiagram
   autonumber
@@ -125,3 +126,4 @@ erDiagram
 - ==This was marked (highlight)==
 - ^^This was inserted (underline)^^
 - ~~This was deleted (strikethrough)~~
+ 
