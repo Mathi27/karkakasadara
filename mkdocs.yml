@@ -11,7 +11,16 @@ theme:
     # - media: "(prefers-color-primary: light)"
     #   scheme: default
     #   toggle:
+    #     # - media: "(prefers-color-primary: light)"
+    #   scheme: default
+    #   toggle:
     #     icon: material/brightness-7
+    #     name: Switch to dark mode
+    # - media: "(prefers-color-primary: dark)"
+    #   scheme: slate
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: Switch to light mode    icon: material/brightness-7
     #     name: Switch to dark mode
     # - media: "(prefers-color-primary: dark)"
     #   scheme: slate
@@ -45,6 +54,9 @@ nav:
       - Overview: GettingStarted/01overview.md
       - Installation: GettingStarted/02installation.md
       - First Steps: GettingStarted/03first-steps.md
+    - Problem Solving:
+      - Level 1: 
+        - Problems List: ProblemSolving/Level 1/Problems.md
     - Git & Github: 
       - Set up Git: Git/01_Configuration.md
       - Set up UserName : Git/02_setUserName.md

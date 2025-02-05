@@ -31,7 +31,7 @@
       return 0;
     }
     ```
-    
+
 <div class="grid cards" markdown>
 
 -   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
