@@ -1,1 +1,1 @@
-## AI ML
+## Mathematics For Machine Learning
