@@ -93,7 +93,7 @@ nav:
       - Coding Standards: C_Programming/25.md
   - Embedded Systems / IoT:
     - Embedded Systems:
-      - Overview: EmbeddedSystems/01Es.md
+      - Firebase Setup: EmbeddedSystems/01Es.md
     - PCB Design:
       - Overview: PCB_Design/01pcb.md
     - VLSI:
